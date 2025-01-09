@@ -1,7 +1,9 @@
 
-#This program will check if a number is greater than 10 or not
-number_1 =10
-if number_1 > 10:
-    print("This number is greater than10") 
-else:
-    print("This number is not greater than 10")
+#This program will check if a number is greater than 45 or not
+number_1 = 45
+if number_1 > 45:
+    print("This number is greater than 45") 
+elif number_1 < 45:
+    print("This number is less than 45")
+elif number_1 == 45:
+    print("This number is  same as 45")
