@@ -18,9 +18,9 @@ elif number_2 < 8:
 
 temperature = 75
 if temperature > 80:
-    print("It's hot outside. wear light  clothes")
+    print("It's hot outside. wear light clothes")
 elif temperature < 60:
-    print("It's getting chilly outside. wear jacket clothes")
+    print("It's getting chilly outside. wear jacket")
 else:
     print("It's cold outside. stay indoor and enjoy the day")
     
