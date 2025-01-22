@@ -1,3 +1,5 @@
+import os
+os.system('cls')
 #assign a number to a variable
 number = 10
 if number > 0:
