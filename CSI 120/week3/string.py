@@ -17,7 +17,7 @@ print("Type: "+str(type(b))+"a="+str(b))
       
 print("Type: "+str(type(bb))+"bb="+str(bb))
       
-print("Type: "+str(type(c))+"c="+str(c))
+print("Type: "+str(type(c))+"c="+(c))
       
 print("Type: "+str(type(d))+"d="+str(d))
 
