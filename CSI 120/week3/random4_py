@@ -1,0 +1,13 @@
+import os
+#Check if a Random Number is Divisible by Another Random Number
+import random
+
+# Generate two random integers
+number1 = random.randint(1, 100)
+number2 = random.randint(1, 100)
+
+# Check if number1 is divisible by number2
+if number2 != 0 and number1 % number2 == 0:
+    print(f"{number1} is divisible by {number2}")
+else:
+    print(f"{number1} is not divisible by {number2}")
