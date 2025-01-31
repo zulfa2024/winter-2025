@@ -1,0 +1,29 @@
+.container{
+    margin: auto;
+    width:70%;
+    background-color:white;
+    padding:10px;
+
+}
+.headContainer{
+    background-color:orange;
+    padding: 20px;
+
+}
+.headingStyle
+{
+    color:white;
+    font-size:32;
+    text-align:center;
+}
+
+.container-2
+{
+    background-color:yellow;
+    padding: 20px;
+    color: pink;
+    font-family: tahoma;
+    border: 1px solid black;
+}
+body{
+    background-color: gray;
