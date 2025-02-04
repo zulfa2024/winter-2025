@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form
+        {
+           width: 400px;
+           padding: 20px;
+           border: 1px solid black;
+           background-color: aliceblue;
+        }
+        label{
+            font-weight: bold;
+        }
+        input, select, textarea
+        {
+            width: 100%;
+            margin-top: 5px;
+            padding:8px;
+            border: 1px solid black;
+        }
+        button
+        {
+            margin-top: 10px;
+            padding:10px;
+            background: blue;
+            color: white;
+            
+        }
+
+    </style>
+</head>
+<body>
+  <h1> Sample Form</h1> 
+  <form>
+    <label for ="name"> Name</label>
+    <input type = "text" id = "name" name = "name">
+    <label for ="email"> Email</label>
+    <input type = "text" id = "email" name = "email">
+    <label for ="password"> Password</label>
+    <input type = "password" id = "password" name = "password">
+    <label for ="gender"> Gender</label>
+    <select id = "gender" name = "gender">
+        <option value = "male"> Male</option>
+        <option value = "female"> female</option>
+        <option value = "other"> Other</option>
+    </select>
+
+    <label> Choose Subscription Plan:</label>
+    <label><input type="radio" name=" subscription" value = "free"> Free</label>
+    <label><input type="radio" name=" subscription" value = "premium"> Premium</label>
+    <label><input type="radio" name=" subscription" value = "vip"> VIP</label>
+    <label for="message"> VIP Message</label>
+    <textarea id =  "message" name = "message" row = "4" placeholder = "Enter your message"></textarea>
+    <button type = "submit">Submit</button>
+  </form> 
+
+
+
+
+</body>
+</html>
