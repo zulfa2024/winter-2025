@@ -14,7 +14,7 @@ while count <counter:
          flag = True
          break   
        i=i+1    
-    if flag == False:
-        print(num)
-    num = num+1
-    count = count+1
+    if flag == True:
+        print("it is a prime number")
+    else:
+      print("it is not a prime number")
