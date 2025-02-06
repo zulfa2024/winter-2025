@@ -33,6 +33,8 @@ body {
 .recipe a {
     color: #1a0dab;
     text-decoration: none;
+
 }
 .recipe a:hover {
     text-decoration: underline;
+}
