@@ -21,7 +21,7 @@ else:
     print("your grade is D")
 #to display a letter grade
 
-score = 45
+score = 99
 if score >= 90:
     print("your grade is A")
 elif score >= 80 and score > 80:
