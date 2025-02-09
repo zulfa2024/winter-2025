@@ -3,7 +3,7 @@
 
 #If both conditions are true then display: The number [number] is even and greater than 10.
 
-# otherwise display: The number [number]] is either odd or not greater than 10.
+# otherwise display: The number [number] is either odd or not greater than 10.
 
 import os
 
