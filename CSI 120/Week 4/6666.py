@@ -12,5 +12,20 @@
  #total amount: 160
  #customer Shane Williams purchased 4 keyboards for 160
  #do you want to continue?(y/n):n
- choice  = "y"
  
+ # choice  = "y"
+ 
+while choice == "y": 
+    customerName = input("Customer Name: ")
+    productName = input("Product Name: ")
+    quantity = int(input("Quantity: "))
+    price = float(input("Price: "))
+    totalAmount = quantity * price
+    print(f"{customerName}, : {productName}")
+    print(f"quantity, : {quantity}")
+    print(f"price, : {price}")
+    print(f"total amount: {totalAmount}")
+    print(f"{customerName} purchased {quantity} {productName} for ${totalAmount}")
+    print("do you want to continue?(y/n):")
+    
+    
