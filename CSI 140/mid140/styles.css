@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px;
+  padding:5px;
   margin-right: 40px;
   margin-left: 40px;
   border: 1px solid #ccc;
@@ -17,7 +17,7 @@
 }
 .nav-links {
   display: flex;
-  gap: 200px; 
+  gap: 180px; 
 }
 .nav-links a {
   text-decoration: underline;
@@ -26,21 +26,34 @@
 .text-box {
   border: 1px solid #ccc;
   background-color: rgb(205, 218, 219);
-  padding: 10px;
-  margin: 15px 0;
+  padding: 20px;
+  margin: 20px 0;
   border-radius: 8px;
   box-shadow: 2px 2px 5px rgba(101, 66, 1, 0.5);
+  margin-right:140px;
+  margin-left:140px;
+  margin-top:20px;
+  margin-bottom: 40px; 
 }
 
 h1 {
   color: orange;
+  text-align: center;
+  
 }
 .gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
+  padding: 40px;
+  background-color: #f9f9f9;
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 140px;
+  margin-left: 140px;
 }
+
 .gallery-item {
   width: 200px;
   text-align: center;
@@ -52,4 +65,16 @@ h1 {
 }
 .gallery-item p {
   margin: 10px 0;
+  
 }
+.content {
+  background-color: #f9f9f9;
+  padding:40px;
+  border-radius: 8px;
+  box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top:20px;
+  margin-bottom: 40px;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+
