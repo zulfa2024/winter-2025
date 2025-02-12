@@ -1,41 +1,55 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f5f5f5;
-}
-
 .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 15px;
+  margin-right: 40px;
+  margin-left: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 2px 2px 5px rgba(101, 66, 1, 0.5);
 }
 .logo {
-  width: 100px; /* Adjust the width as needed */
+  width: 100px;
   height: auto;
+  margin-left: 10px;
 }
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 200px; 
 }
 .nav-links a {
-  text-decoration: none;
-  color: purple;
+  text-decoration: underline;
+  color: purple;   
 }
+.text-box {
+  border: 1px solid #ccc;
+  background-color: rgb(205, 218, 219);
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(101, 66, 1, 0.5);
+}
+
 h1 {
   color: orange;
 }
-ul {
-  list-style-type: disc;
-  margin-left: 20px;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
 }
-.commitment {
-   color: #333;
+.gallery-item {
+  width: 200px;
+  text-align: center;
+ 
 }
-
-nav .logo {
-font-size: 24px;
-font-weight: bold;
-width: 100;
+.gallery-item img {
+  width: 100%;
+  height: auto;
 }
-
+.gallery-item p {
+  margin: 10px 0;
+}
