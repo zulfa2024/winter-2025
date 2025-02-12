@@ -3,35 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hannah's E-Pics - Home</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Hanna's E-PICS</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            margin-right: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: rgb(245, 245, 245);
+            box-shadow: 2px 2px 5px rgba(101, 66, 1, 0.5);
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-left: 10px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 200px; /* Adjusted to increase space between links */
+        }
+        .nav-links a {
+            text-decoration: underline; /* Underline the links */
+            color: purple;   
+        }
+        .text-box {
+            border: 1px solid #ccc;
+            background-color: rgb(205, 218, 219);
+            padding: 10px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(101, 66, 1, 0.5);
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Hanna's E-PICS Logo">
+    <header class="header">
+        <div class="banner" style="text-align: center;">
+            <img src="banner.png" alt="Banner Image" style="width: 1600px; height: 100px;">
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="e-pics.html">e-Pics</a></li>
-                <li><a href="donate.html">Donate</a></li>
-               
-            </ul>
-        </nav>
     </header>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Hannah's E-Pics" class="logo">
+        </div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="ePics.html">e-Pics</a>
+            <a href="donate.html">Donate</a>
+        </div>
+    </div>
     <main>
-        <h1>Welcome to E-Pics for Change – Art That Makes a Difference</h1>
-        <div class="text-boxes">
-            <div class="text-box">
-                <p>At EpicGives, every story sold brings hope, but your donation can change lives even faster. While purchasing an epic supports our mission, direct donations help us make an even greater impact on the fight against homelessness.</p>
-            </div>
-            <div class="text-box">
-                <p>Art has the power to inspire, connect, and transform lives. By purchasing our digital images, you’re not only gaining a beautiful piece of creativity—you’re also helping someone in need find food, shelter, and a fresh start</p>
-            </div>
-            <div class="text-box">
-                <p>Unlike traditional businesses, every purchase you make directly supports charity. Our proceeds fund shelters, meal programs, and job assistance initiatives for people experiencing homelessness.</p>
-            </div>
+        <h1>Welcome to E-Pics for Change - Art That makes a Difference</h1>
+        <div class="text-box">
+            <p>At E-Pics for Change, we believe in the power of visual storytelling and the strength of community. Our mission is simple: sell e-pictures (E-Pics)—stunning digital artwork and photography—and use every dollar of profit to support charitable efforts to fight homelessness.</p>
+        </div>
+        <div class="text-box">
+            <p>Art has the power to inspire, connect, and transform lives. By purchasing our digital images, you’re not only gaining a beautiful piece of creativity—you’re also helping someone in need find food, shelter, and a fresh start.</p>
+        </div>
+        <div class="text-box">
+            <p>Unlike traditional businesses, every purchase you make directly supports charity. Our proceeds fund shelters, meal programs, and job assistance initiatives for people experiencing homelessness.</p>
         </div>
     </main>
 </body>
