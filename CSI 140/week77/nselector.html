@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li:nth-child(odd)
+        {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+  <tr>
+    <td>
+        </td>
+        <td>
+
+        </td>
+    
+  </tr>     
+
+    </table>
+</body>
+</html>
+<!--
+    Create a table with caption which has three columns
+    Employee ID, Name, Project
+    Add 5 rows
+    Make each alternative row yellow and then gray
+-->
+li:nth-child(3n) {
+    color: red;
+    font-weight: bold;
+}
+li:nth-child(4) {
+    color: green;
+}
+td:nth-child(2n+1) {
+    background-color: yellow;
+}
