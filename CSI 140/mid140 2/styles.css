@@ -23,18 +23,6 @@
   text-decoration: underline;
   color: purple;   
 }
-.text-box {
-  border: 1px solid #ccc;
-  background-color: rgb(205, 218, 219);
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: 2px 2px 5px rgba(101, 66, 1, 0.5);
-  margin-right:140px;
-  margin-left:140px;
-  margin-top:20px;
-  margin-bottom: 40px; 
-}
 
 h1 {
   color: orange;
@@ -43,7 +31,6 @@ h1 {
 }
 .gallery {
   display: flex;
-  flex-wrap: wrap;
   gap: 20px;
   padding: 40px;
   background-color: #f9f9f9;
@@ -77,6 +64,18 @@ h1 {
   margin-right: 140px;
   margin-left: 140px;
 }
-
+.text-box {
+    width: 280px;
+    padding: 10px;
+    border:2px solid black;
+    height: 135px;
+    border:2px solid black;
+    border-radius: 10px;
+    margin-right:120px;
+    margin-left:120px;
+    margin-top:2px;
+    margin-bottom:20px; 
+    background-color:rgb(212, 238, 247)
+}
 
 
