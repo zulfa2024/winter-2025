@@ -1,15 +1,4 @@
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding:5px;
-  margin-right: 40px;
-  margin-left: 40px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: rgb(245, 245, 245);
-  box-shadow: 2px 2px 5px rgba(101, 66, 1, 0.5);
-}
+
 .logo {
   width: 100px;
   height: auto;
@@ -22,7 +11,7 @@
 .nav-links a {
   text-decoration: underline;
   color: purple;
-  padding-right: 60px;
+  padding-right: 150px;
 }
 h1 {
   color: orange;
@@ -34,7 +23,7 @@ h1 {
   gap: 1rem;
   padding: 2rem;
   gap: 40px;
-  padding: 40px;
+  padding: 60px;
   background-color: #f9f9f9;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -75,8 +64,17 @@ h1 {
   background-color:#d5ecf2;
 
   }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(245, 245, 245);
+  }  
   
-
-
 
         
