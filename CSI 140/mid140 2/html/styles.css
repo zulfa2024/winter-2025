@@ -21,7 +21,8 @@
 }
 .nav-links a {
   text-decoration: underline;
-  color: purple;   
+  color: purple;
+  padding-right: 60px;
 }
 h1 {
   color: orange;
@@ -35,11 +36,11 @@ h1 {
   gap: 40px;
   padding: 40px;
   background-color: #f9f9f9;
-  padding: 40px;
   margin-top: 20px;
   margin-bottom: 40px;
   margin-right: 140px;
   margin-left: 140px;
+  
 }
 .gallery-item {
   width: 200px;
@@ -63,17 +64,19 @@ h1 {
   margin-left: 140px;
 }
 .text-box {
-  width: 280px;
-  padding: 10px;
+  width: 300px;
+  padding:10;
   border:2px solid black;
-  height: 135px;
-  border:2px solid black;
-  border-radius: 10px;
+  height: 140px;
+  margin-left:140px;
   margin-right:120px;
-  margin-left:120px;
-  margin-top:2px;
-  margin-bottom:20px; 
-  background-color:rgb(212, 238, 247)
-}
+  margin-top:40px;
+  margin-bottom:40px;
+  background-color:#d5ecf2;
+
+  }
+  
+
+
 
         
