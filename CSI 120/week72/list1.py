@@ -1,21 +1,27 @@
-import os
-os.system("cls")
-#Enter total number of items: 3  
-#Enter Item #1: Audi  
-#Enter Item #2: Fiat  
-#Enter Item #3: Audi  
-cars: ['Audi', 'Fiat', 'Audi']  
-#Which item do you want to remove? Audi  
-#Final List: ['Fiat']  
-# Initialize the list
-cars = ['Audi', 'Fiat', 'Audi']
+# Ask user to enter the total number of items
+total_items = int(input("Enter total number of items: "))
+
+# Initialize an empty list
+cars = []
+
+# Loop to get items from the user and add them to the list
+for i in range(total_items):
+    item = input(f"Enter Item #{i+1}: ")
+    cars.append(item)
 
 # Print the initial list
-print("Initial list of cars:", cars)
+print("Initial List:", cars)
 
-# Remove 'Audi' from the list
-print("*****Remove all instances of 'Audi' from cars list***********")
-cars.remove("Audi")
-print(cars) 
+# Ask the user which item to remove
+item_to_remove = input("Which item do you want to remove? ")
+
+# Remove the specified item from the list
+cars = [car for car in cars if car != item_to_remove]
+
+# Print the final list
+print("Final List:", cars)
+
+
+
 
 
