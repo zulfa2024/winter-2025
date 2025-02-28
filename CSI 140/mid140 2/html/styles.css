@@ -20,15 +20,16 @@ h1 {
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
-  padding: 2rem;
-  gap: 40px;
+  gap: 2px;
+  padding: 2px;
+  gap: 100px;
   padding: 60px;
   background-color: #f9f9f9;
   margin-top: 20px;
   margin-bottom: 40px;
   margin-right: 140px;
   margin-left: 140px;
+  
   
 }
 .gallery-item {
@@ -40,29 +41,35 @@ h1 {
   height: 200px;
 }
 .gallery-item p {
-  margin: 10px;
+  margin: 20px;
 }
 .content {
   background-color: #f9f9f9;
   padding:40px;
   border-radius: 8px;
+  justify-content: center;
+  align-items: center;
   box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top:20px;
   margin-bottom: 40px;
   margin-right: 140px;
   margin-left: 140px;
+  
+ 
 }
 .text-box {
   width: 300px;
   padding:10;
   border:2px solid black;
   height: 140px;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 2px;
   margin-left:40px;
   margin-right:20px;
   margin-top:40px;
   margin-bottom:40px;
   background-color:#d5ecf2;
+  
 
   }
   .container {
