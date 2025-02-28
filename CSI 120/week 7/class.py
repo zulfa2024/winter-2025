@@ -7,4 +7,4 @@ while i<3:
         print("*",end= "")
         j+=1
     print("\n")
-    i +=1
+    i +=1 
