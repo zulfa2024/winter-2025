@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-    background: #ffcc99;
+    background: #b2dfdb; /* Mint green */
     color: #333;
     padding: 1rem;
     text-align: center;
@@ -45,7 +45,7 @@ header nav ul li a {
 }
 .hero .btn {
     display: inline-block;
-    background: #ff7f50;
+    background: rgb(95, 95, 229);
     color: #fff;
     padding: 0.7rem 1.2rem;
     border-radius: 5px;
@@ -62,8 +62,11 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 section h2 {
+    
+    background-color: #b2dfdb; /* Mint green */
     text-align: center;
-    color: #ff7f50;
+    padding: 50px;
+    color: #333333;
 }
 
 /* Contact Form */
@@ -91,8 +94,13 @@ form button {
 
 /* Footer */
 footer {
+
    text-align: center; 
-   background: #ffcc99;
+   background:#b2dfdb; /* Mint green */
    color: #333;
    padding: 1rem;
+}
+.schedule {
+    background-color: #d1eafb; /* Soft pink */
+    padding: 20px;
 }
