@@ -104,3 +104,17 @@ footer {
     background-color: #d1eafb; /* Soft pink */
     padding: 20px;
 }
+.logo {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    color: #ff9800;
+
+    text-align: center;
+}
