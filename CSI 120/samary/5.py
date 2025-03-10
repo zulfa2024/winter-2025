@@ -13,11 +13,13 @@ for i in range(n):
     student_name = input("Enter the student name: ")
     student_gender = input("Enter the student gender: ")
     student_hobbies = (input("Enter the first hobby: "), input("Enter the second hobby: "))
-    student_information = [student_id, student_name, student_gender, student_hobbies, student_information]
+    student_information = [student_id, student_name, student_gender, student_hobbies,]
+    print(f"Student {i+1} details: {student_information}")
     students.append(student_information)
+    print("-" * 50)
+    input("\nPress any key to continue...")
     
 
-print("\nStudent Information:")
     
     
     
