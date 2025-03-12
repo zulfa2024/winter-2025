@@ -11,3 +11,4 @@ while i < 3:
     print("\n")
     c += 2
     i += 1
+    # end of while
