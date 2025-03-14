@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #b2dfdb; /* Mint green */
+    color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+header .logo {
+    margin-right: 20px;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+header nav ul li {
+    margin: 0 10px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: #ffefd5;
+    text-align: center;
+    padding: 2rem;
+}
+.hero h2 {
+    font-size: 2.5rem;
+}
+.hero .btn {
+    display: inline-block;
+    background: rgb(95, 95, 229);
+    color: #fff;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+    text-align: center;
+    background-color: #b2dfdb; /* Mint green */
+    padding: 50px;
+    color: #333333;
+}
+
+/* Contact Form */
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form button {
+    background: #c2ff50;
+    color: #fff;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #b2dfdb; /* Mint green */
+    color: #333;
+    padding: 1rem;
+}
+.schedule {
+    background-color: #d1eafb; /* Soft pink */
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.nav-links a {
+    text-decoration: underline;
+    color: black;
+}
+body {
+    background-image: url("../images/wp8377357.jpg");
+}  
+
+
