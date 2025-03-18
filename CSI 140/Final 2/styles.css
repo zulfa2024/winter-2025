@@ -62,3 +62,51 @@ ol {
 section {
     margin-top: 20px;
 }
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #b2dfdb;
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #ea72ba;
+    margin-top: 1em;
+}
+
+h3 {
+    color: #b2dfdb;
+    margin-top: 1em;
+}
+
+.about p {
+    margin: 1em 0;
+}
+
+section.about {
+    background: #fff;
+    padding: 2em 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
