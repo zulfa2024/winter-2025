@@ -1,43 +1,62 @@
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ea72ba;
     color: #333;
     line-height: 1.6;
+    background-image: url("../images/back.png");
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, main content, footer */
+    min-height: 100vh;
 }
 
 /* Header */
 header {
     background: #b2dfdb; /* Mint green */
-    color: #333;
+    color: hwb(231 10% 4% / 0.626);
     padding: 1rem;
-    text-align: center;
-}
-header .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* Logo, title, nav */
     align-items: center;
-    justify-content: center;
-}
-header h1 {
-    margin: 0;
-    flex-grow: 1;
+    gap: 20px;
     text-align: center;
 }
-header .logo {
-    margin-right: 20px;
+
+header .container {
+    display: contents; /* Pass child elements directly to the grid */
 }
+
+header .logo {
+    grid-column: 1; /* Place logo in the first column */
+    margin-right: 20px; /* Keep original spacing */
+}
+
+header h1 {
+    grid-column: 2; /* Place title in the second column */
+    margin: 0;
+    text-align: center;
+}
+
+header nav {
+    grid-column: 3; /* Place navigation in the third column */
+}
+
 header nav ul {
+    display: grid;
+    grid-auto-flow: column; /* Horizontal navigation */
+    gap: 10px; /* Keep original spacing */
     list-style: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
     margin: 0;
 }
+
 header nav ul li {
-    margin: 0 10px;
+    margin: 0 10px; /* Original spacing */
 }
+
 header nav ul li a {
     text-decoration: none;
     color: #333;
@@ -46,52 +65,76 @@ header nav ul li a {
 
 /* Hero Section */
 .hero {
-    background: #ffefd5;
+    background: #e7e4e3;
     text-align: center;
-    padding: 2rem;
+    padding: 8rem;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 2rem;
 }
+
 .hero h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    color: purple;
 }
+
 .hero .btn {
     display: inline-block;
-    background: rgb(95, 95, 229);
+    background: #5fe561;
     color: #fff;
     padding: 0.7rem 1.2rem;
     border-radius: 5px;
     text-decoration: none;
+    width: 20%;
+    transition: background-color 0.3s ease-in-out;
 }
-
+.btn:hover {
+    background: #48a8af;
+    transition: background-color 0.3s ease-in-out;   
+}
 /* Sections */
 section {
-    margin: 2rem auto;
-    padding: 1rem;
+    margin: 1rem auto;
+    padding: 3rem;
     max-width: 800px;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 0.5rem; /* Consistent spacing between items */
 }
+
 section h2 {
     text-align: center;
     background-color: #b2dfdb; /* Mint green */
-    padding: 50px;
+    padding: 30px;
     color: #333333;
+    border-radius: 5px;
+    margin: 0;
 }
 
 /* Contact Form */
+form {
+    display: grid;
+    grid-template-rows: repeat(4, auto); /* Label and input pairs */
+    gap: 1rem;
+    width: 700px;
+    padding: 30;
+}
+
 form label {
-    display: block;
-    margin-bottom: 0.5rem;
     font-weight: bold;
 }
+
 form input,
 form textarea {
-    width: 100%;
+    width: 97%; /* Preserve original width */
     padding: 0.8rem;
     margin-bottom: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+
 form button {
     background: #c2ff50;
     color: #fff;
@@ -99,31 +142,35 @@ form button {
     border: none;
     border-radius: 5px;
     font-size: 1rem;
+    width: 20%; 
 }
 
 /* Footer */
 footer {
-    text-align: center;
     background: #b2dfdb; /* Mint green */
+    text-align: center;
     color: #333;
     padding: 1rem;
+    display: grid;
+    place-items: center; /* Center content */
 }
+
+/* Schedule Section */
 .schedule {
     background-color: #d1eafb; /* Soft pink */
     padding: 20px;
+    display: grid;
 }
 
+/* Logo */
 .logo img {
-    max-width: 100px;
-    height: auto;
+    max-width: 200px;
+    height: 150px;
 }
 
+/* Navigation Links */
 .nav-links a {
     text-decoration: underline;
     color: black;
+    margin-left: 30px;
 }
-body {
-    background-image: url("../images/wp8377357.jpg");
-}  
-
-
