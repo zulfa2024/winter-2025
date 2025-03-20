@@ -78,16 +78,12 @@ header nav ul li a {
     display: grid;
     grid-template-rows: auto auto auto;
     gap: 1rem;
-    width: 90%;
-    
-    
+    width: 90%;    
 }
-
 .hero h2 {
     font-size: 2rem;
     color: purple;
 }
-
 .hero .btn {
     display: inline-block;
     background: #5fe561;
@@ -200,4 +196,5 @@ footer {
 .container p {
     background-color: yellow;
   }
+
 
