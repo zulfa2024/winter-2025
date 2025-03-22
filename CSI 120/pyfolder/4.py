@@ -1,7 +1,6 @@
 # Program to print the day of the week based on user input
 import random
 import os
-
 os.system('cls')
 days_of_week = {
     1: "Monday",
