@@ -1,22 +1,24 @@
 
+import os
+os.system("cls")  
 import random
 
-# Generate a random number between 1 and 20
+# Randomly generate a number between 1 and 20
 target_number = random.randint(1, 20)
 
-print("Guess the number (between 1 and 20):")
-
-while True:
-    try:
-        # Ask the user for a guess
-        guess = int(input("Enter your guess: "))
-        
-        if guess < target_number:
+# Loop until the user guesses correctly
+correct_guess = False
+while not correct_guess:
+    # Ask the user for a guess
+    guess = input("Guess a number between 1 and 20: ")
+    
+    # Ensure the input is a number
+    if guess.isdigit():
+        guess = int(guess)
+        if guess == target_number:
+            print("Congratulations! You guessed the correct number.")
+            correct_guess = True  # Exit the loop
+        elif guess < target_number:
             print("Too low! Try again.")
-        elif guess > target_number:
-            print("Too high! Try again.")
         else:
-            print(f"Congratulations! You guessed the number {target_number} correctly!")
-            break  # Exit the loop when the guess is correct
-    except ValueError:
-        print("Invalid input. Please enter a numeric value.")
+            print("Too high! Try again.")
