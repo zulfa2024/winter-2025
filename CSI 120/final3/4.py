@@ -1,7 +1,10 @@
-
 # Program to print the day of the week based on user input
+import random
+import os
 
-# Dictionary mapping numbers to days of the week
+os.system('cls')
+
+# mapping numbers to days of the week
 days_of_week = {
     1: "Monday",
     2: "Tuesday",
@@ -21,5 +24,3 @@ if number.isdigit():
         print("The day of the week is " + days_of_week[number] + ".")
     else:
         print("Error: Please enter a number between 1 and 7.")
-else:
-    print("Error: Invalid input. Please enter a numeric value.")
