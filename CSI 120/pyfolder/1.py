@@ -6,8 +6,6 @@ for i in range(5):
     name = input(f"Enter name for person {i + 1}: ")
     age = int(input(f"Enter age for person {i + 1}: "))
     people.append((name, age))
-
-# Check if anyone is above 18 years old
 print("\nPeople above 18 years old:")
 above_18_found = False
 for person in people:
