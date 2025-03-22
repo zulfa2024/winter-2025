@@ -1,6 +1,9 @@
 
 # Prompt the user to input 5 tuples (name, age)
-print("Please enter 5 tuples, each containing a name and an age.")
+import os
+
+os.system('cls')
+
 people = []
 
 for i in range(5):
@@ -16,5 +19,3 @@ for person in people:
         print(person[0])
         above_18_found = True
 
-if not above_18_found:
-    print("No one is above 18 years old.")
