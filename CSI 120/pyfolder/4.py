@@ -3,8 +3,6 @@ import random
 import os
 
 os.system('cls')
-
-# mapping numbers to days of the week
 days_of_week = {
     1: "Monday",
     2: "Tuesday",
@@ -14,10 +12,7 @@ days_of_week = {
     6: "Saturday",
     7: "Sunday"
 }
-
-# Ask the user to enter a number
 number = input("Enter a number between 1 and 7: ")
-
 if number.isdigit():
     number = int(number)
     if 1 <= number <= 7:
