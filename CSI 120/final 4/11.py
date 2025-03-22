@@ -1,26 +1,40 @@
-#Prompts the user to input a list of 5 tuples, where each tuple contains a name and an age (e.g., ("Alice", 20)). 
-#The program should check if anyone is above 18 years old and print their name.
-import os
+import random
 
-os.system('cls')
+# Generate 10 random integers between 1 and 100 and store them in a list
+numbers = []
+for i in range(10):
+    numbers.append(random.randint(1, 100))
 
-# Prompt the user to input the 5 tuples (name, age)
-print("Please enter 5 tuples, each containing a name and an age.")
-people = []
+# Print all the numbers
+print("Numbers:", numbers)
 
-for i in range(5):
-    name = input(f"Enter name for person {i + 1}: ")
-    age = int(input(f"Enter age for person {i + 1}: "))
-    people.append((name, age))
+# Find the largest number
+largest = numbers[0]
+for num in numbers:
+    if num > largest:
+        largest = num
 
-# Check if anyone is above 18 years old
-print("\nPeople above 18 years old:")
+# Find the smallest number
+smallest = numbers[0]
+for num in numbers:
+    if num < smallest:
+        smallest = num
 
-for person in people:
-    if person[1] > 18:
-        print(person[0])
-        
+# Calculate the sum of all the numbers
+total_sum = 0
+for num in numbers:
+    total_sum += num
 
+# Calculate the length of the list
+length = 0
+for _ in numbers:
+    length += 1
 
- 
-    
+# Calculate the average of the numbers
+average = total_sum / length
+
+# Print the results
+print("Largest Number:", largest)
+print("Smallest Number:", smallest)
+print("Sum of Numbers:", total_sum)
+print("Average of Numbers:", average)
