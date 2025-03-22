@@ -1,11 +1,7 @@
-
 # Prompt the user to input 5 tuples (name, age)
 import os
-
 os.system('cls')
-
 people = []
-
 for i in range(5):
     name = input(f"Enter name for person {i + 1}: ")
     age = int(input(f"Enter age for person {i + 1}: "))
