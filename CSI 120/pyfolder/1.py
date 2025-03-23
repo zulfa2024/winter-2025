@@ -11,5 +11,5 @@ above_18_found = False
 for person in people:
     if person[1] > 18:
         print(person[0])
-        above_18_found = True
+        
 
